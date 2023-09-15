@@ -27,14 +27,19 @@
     <label for="genero">Genero:</label>
     <input id="generoF" type="radio" name="genero">Femenino
     <input id="generoM" type="radio" name="genero">Masculino <br>
+    <label for="fnacimiento">Ingrese su fecha de nacimiento:</label>
+    <input id="fnacimiento" type="date" name="fnacimiento"></inputtype> <br>
     <label for="estadoCiv">Estado Civil:</label>
-    <input id="estadoCiv" type="radio" name="estadoCiv"> <br>
+    <input id="estadoCiv" type="radio" name="ecivil">Soltero
+    <input id="estadoCiv" type="radio" name="ecivil" >Casado
+    <input id="estadoCiv" type="radio" name="ecivil" >Unión libre
+    <input id="estadoCiv" type="radio" name="ecivil" >Viudo(a)<br>
     <label for="telefono">Numero telefonico de contacto:</label>
-    <input id="telefono" type="text"> <br>
+    <input id="telefono" type="tel"> <br>
     <label for="direccion">Direccion de tu residencia:</label>
     <input id="direccion" type="text" name="direccion"> <br>
     <label for="correo">Correo electronico de contacto:</label>
-    <input id="correo" type="text"> <br>
+    <input id="correo" type="email"> <br>
     <label for="ciudad">¿En qué ciudad vives?</label>
     <select name="ciudad">
     <option selected value="0"> Elige una ciudad</option>
@@ -62,6 +67,15 @@
     <input id="pass" type="password" name="pass"> <br>
     <label for="archivo"> Sube aquí tu archivo</label>
     <input type="file" name="archivo"> <br>
+    <input type="search" id="buscar" name="buscar" placeholder="Buscar..."> 
+    <input type="submit" value="Ir"> <br>
+    <input type="url" placeholder="Url"></inputtype> <br>
+    <label for="numero">Califica tu experiencia del 1 al 5:</label>
+    <input id="numero" type="number" name="numero" max="5"></inputtype> <br>
+    <label for="color">Ingrese su color favorito:</label>
+    <input id="color" type="color" name="favcolor"></inputtype> <br>
+    <input type="submit" value="Enviar"></inputtype>
+    <input type="reset" value="Restablecer"></inputtype> <br> 
 </form>
 </body>
 </html>
